@@ -1,0 +1,51 @@
+.todo-container {
+    width: 250px;
+    margin: auto;
+    box-shadow: 0px 0px 5px gray;
+    background-color: aqua;
+    padding: 15px;
+}
+
+.todo-input {
+    width: 220px;
+    margin: 10px auto;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0px;
+    background: whitesmoke;
+}
+
+input.input-box {
+    width: 190px;
+    /* margin: 0px; */
+    margin-right: 5px;
+    border:none;
+    background-color:transparent;
+    border: none;
+    background: none;
+    outline: none;
+}
+.each-items {
+    width: 210px;
+    margin: auto;
+    border: 1px solid gray;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+}
+
+.each-items span {
+    width: 165px;
+    display: inline-block;
+    text-align: left;
+}
+
+.each-items i.fas.fa-edit {
+    margin: 2px;
+}
+
+.each-items i.fas.fa-trash-alt {
+    margin: 2px;
+}
